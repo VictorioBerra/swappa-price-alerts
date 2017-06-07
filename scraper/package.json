@@ -1,0 +1,20 @@
+{
+  "name": "swappa-price-alert",
+  "version": "1.0.0",
+  "description": "A price alert scraper for swappa",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Victorio Berra",
+  "license": "ISC",
+  "dependencies": {
+    "bhttp": "^1.2.4",
+    "bluebird": "^3.4.7",
+    "cheerio": "^0.22.0",
+    "knex": "^0.12.6",
+    "node-horseman": "^3.2.0",
+    "sqlite": "^2.2.4"
+  }
+}
